@@ -58,11 +58,15 @@ def detect_color_from_array(image_array):
 
     color_name = closest_hsv(most_common_hsv)
     print("Closest color name:", color_name)
+    return color_name
 
 '''
 image = cv2.imread('Downloads/t1.jpg')
 detect_color_from_array(image)
 
 image = cv2.imread('Downloads/t2.JPG')
+detect_color_from_array(image)
+
+image = cv2.imread('Downloads/t10.jpg')
 detect_color_from_array(image)
 '''
